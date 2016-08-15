@@ -1,23 +1,196 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>BergoVR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-<div class="home">
+		<!-- Header -->
+			<header id="header">
 
-  <h1 class="page-heading">Posts</h1>
+				<!-- Logo -->
+					<h1 id="logo">bergo.vr</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro">Intro</a></li>
+							<li><a href="#one">What We Do</a></li>
+							<li><a href="#two">Who We Are</a></li>
+							<li><a href="#work">My Work</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+			</header>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+
+		<!-- Intro bergo -->
+			<section id="introBergo" class="main style1 dark fullscreen">
+				<div class="content container 75%">
+					<header>
+						<h2>bergo</h2>
+					</header>
+                    <p>
+                        VR productions<br> For hire
+					</p>
+					<footer>
+						<a href="#introVR" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+			
+		<!-- Field of stroke  -->
+			<section id="introVR" class="main style2 dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Experience</h2>
+					</header>
+                    <p>
+					<!--Welcome to <strong>recoVR.io</strong><br/>-->
+					We develop tailor made VR experiences for our costumers. 
+					With higest standards and the most advanced tools.
+					Your brand can benefit from the power of VR today.
+										
+					</p>
+<!-- 					<footer>
+						<a href="#intro1" class="button style2 down">More</a>
+					</footer> -->
+				</div>
+				<a href="#cuttingEdge" class="button style2 down anchored">Next</a>
+
+			</section>	
+			
+		<!-- One -->
+			<section id="cuttingEdge" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Cutting edge technologies</h2>
+					</header>
+					<p>From full body motion capture to hand and finger gestures recognitions, real time 3D, targeting all VR platforms.<br>
+					Web, Mobile and high end VR solutions.
+					
+					</p>
+				</div>
+				<a href="#solutions" class="button style2 down anchored">Next</a>
+			</section>
+			
+		
+
+		<!-- Two -->
+			<section id="solutions" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Multiple solutions</h2>
+					</header>
+					<p>
+					<h3> Advertising </h3>
+					Strong branding with tailor made VR experiences.<br>
+					Highly engaging, intarective experience. <br>
+					Analizing tools to get new insights.
+					<h3> Enterprise </h3>
+					Can your next generation benefit from VR? VR is a new and uncharted territory, we help companies who want to bring a VR presence to their brand from VR workshops to prototyping and full structured projects and behaviour analize tools. Bergo it is</p>
+				</div>
+				<a href="#contact" class="button style2 down anchored">Next</a>
+			</section>
+		
+			<section id="work" class="main style3 primary">
+				<div class="content container">
+					<header>
+						<h2>Past Works</h2>
+						<p>In the past several years, we've been proudly organizing the local VR meetup group, leading workshops for leading companies and academy and taking part in several projects in the emerging VR industry</p>
+					</header>
+
+						<div class="container 75% gallery">
+							<div class="row 0% images">
+								<div class="6u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a></div>
+							</div>
+							<div class="row 0% images">
+								<div class="6u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit from-left"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a></div>
+							</div>
+							<div class="row 0% images">
+								<div class="6u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a></div>
+							</div>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content container">
+					<header>
+						<h2>Say Hello.</h2>
+						<!-- <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p> -->
+					</header>
+					<div class="box container 75%">
+
+					<!-- Contact Form -->
+							<form method="post" action="#">
+								<div class="row 50%">
+									<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row 50%">
+									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="actions">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; recovr.io</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
