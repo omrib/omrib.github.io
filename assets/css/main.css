@@ -2889,29 +2889,29 @@
 	}
 	
 	#introVR {
-		background: url("images/overlay.png"), url("../../images/immerse.jpeg");
+		background: url("images/overlay.png"), url("../../images/immerse.jpeg") fixed;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 	
-	#presence {
-		background: url("images/overlay.png"), url("../../images/presence.jpg");
+	#work {
+		background: url("images/overlay.png"), url("../../images/river.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 	
-	#stroke {
-		background: url("images/overlay.png"), url("../../images/face.jpg");
+	#cuttingEdge {
+		background: url("images/overlay.png"), url("../../images/Neuron_models.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}	
 	/* recovr.io intro */
 
-	#introRecovrio {
-		background: url("images/overlay.png"), url("../../images/hand.jpg");
+	#solutions {
+		background: url("images/overlay.png"), url("../../images/GearVR.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3257,7 +3257,7 @@
 		/* Main */
 
 			.main.style2 .content {
-				width: 40%;     opacity: 0.7;
+				width: 40%;     opacity: 0.8;
 
 			}
 
