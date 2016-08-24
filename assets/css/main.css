@@ -2889,14 +2889,14 @@
 	}
 	
 	#introVR {
-		background: url("images/overlay.png"), url("../../images/immerse.jpeg") fixed;
+		background: url("images/overlay.png"), url("../../images/Oculus-Rift-9.jpg") fixed;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 	
 	#work {
-		background: url("images/overlay.png"), url("../../images/river.jpg");
+		background: url("images/overlay.png"), url("../../images/GearVR1.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
