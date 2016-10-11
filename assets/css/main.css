@@ -1805,7 +1805,7 @@
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		font-size: 18pt;
-		line-height: 1.75em;
+		line-height: 1.25em;
 		color: #39454b;
 		letter-spacing: 0.5px;
 	}
@@ -1830,8 +1830,13 @@
 		letter-spacing: 0.5px;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h2, h3, h4, h5, h6 {
 		font-weight: 900;
+		color: inherit;
+	}
+	
+	h1{
+			font-weight: 900;
 		color: inherit;
 	}
 
@@ -1941,8 +1946,8 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
-		}
+/* 			background: url("images/overlay.png");
+ */		}
 
 		.image img {
 			display: block;
@@ -2373,6 +2378,8 @@
 
 			.main.style3.secondary {
 				background: #f5f6f7;
+				color: orange;
+
 			}
 
 /* Dark */
