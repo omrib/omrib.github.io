@@ -2159,7 +2159,7 @@
 		-webkit-transition: all 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: #FF9326;
 		border: 0;
 		border-radius: 3.5em;
 		color: #fff;
@@ -2378,7 +2378,6 @@
 
 			.main.style3.secondary {
 				background: #f5f6f7;
-				color: orange;
 
 			}
 
@@ -2841,8 +2840,10 @@
 		left: 1em;
 		top: 0;
 		height: 3em;
-		line-height: 3em;
+		line-height: 2.25em;
 		letter-spacing: -1px;
+		font-size: 1.25em;
+
 	}
 
 		#logo a {
