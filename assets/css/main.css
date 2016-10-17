@@ -2881,19 +2881,19 @@
 /* Intro */
 
 	#intro, #intro1 {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background: /* url("images/overlay.png"), */ url("../../images/intro.jpg");
+		background-size: /* 256px 256px, */ cover;
+		background-attachment: /* fixed, */ fixed;
+		background-position:/*  top left, */ bottom center;
+		background-repeat: /* repeat, */ no-repeat;
 	}
 	/* BergoVR */
 
 	#introBergo {
-		background: url("images/overlay.png"), url("../../images/handAndRock.jpeg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: /* url("images/overlay.png"), */ url("../../images/intro1.jpg");
+		background-size: /* 256px 256px, */ cover;
+		background-attachment: /* fixed, */ fixed;
+		background-position:/*  top left, */ bottom center;
 	}
 	
 	#introVR {
@@ -3436,7 +3436,7 @@
 				.main.style2 .content {
 					width: 100%;
 					left: 0% !important;
-					text-align: center;
+					text-align:justify;
 				}
 
 				.main.style2 .tmp {
